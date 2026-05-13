@@ -5,3 +5,476 @@ hi
 ◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
 DB server connected
 server listening on 5050..
+[Object: null prototype] {
+  role: 'USER',
+  firstName: 'lokesh',
+  lastName: 'vakiti',
+  email: 'lokesh@gmail.com',
+  password: 'Lokesh123'
+}
+{
+  fieldname: 'profileImageUrl',
+  originalname: 'WhatsApp Image 2026-04-11 at 12.04.22 PM.jpeg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  buffer: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 84 00 06 06 06 06 07 06 07 08 08 07 0a 0b 0a 0b 0a 0f 0e 0c 0c 0e 0f 16 10 11 10 ... 84850 more bytes>,
+  size: 84900
+}
+Upload function called
+<Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 84 00 06 06 06 06 07 06 07 08 08 07 0a 0b 0a 0b 0a 0f 0e 0c 0c 0e 0f 16 10 11 10 ... 84850 more bytes>
+[Object: null prototype] {
+  role: 'USER',
+  firstName: 'lokesh',
+  lastName: 'vakiti',
+  email: 'lokesh@gmail.com',
+  password: 'Lokesh123'
+}
+{
+  fieldname: 'profileImageUrl',
+  originalname: 'WhatsApp Image 2026-04-11 at 12.04.22 PM.jpeg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  buffer: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 84 00 06 06 06 06 07 06 07 08 08 07 0a 0b 0a 0b 0a 0f 0e 0c 0c 0e 0f 16 10 11 10 ... 84850 more bytes>,
+  size: 84900
+}
+Upload function called
+<Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 84 00 06 06 06 06 07 06 07 08 08 07 0a 0b 0a 0b 0a 0f 0e 0c 0c 0e 0f 16 10 11 10 ... 84850 more bytes>
+[Object: null prototype] {
+  role: 'USER',
+  firstName: 'lokesh',
+  lastName: 'vakiti',
+  email: 'lokesh@gmail.com',
+  password: 'Lokesh123'
+}
+{
+  fieldname: 'profileImageUrl',
+  originalname: 'WhatsApp Image 2026-04-11 at 12.04.22 PM.jpeg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  buffer: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 84 00 06 06 06 06 07 06 07 08 08 07 0a 0b 0a 0b 0a 0f 0e 0c 0c 0e 0f 16 10 11 10 ... 84850 more bytes>,
+  size: 84900
+}
+Upload function called
+<Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 84 00 06 06 06 06 07 06 07 08 08 07 0a 0b 0a 0b 0a 0f 0e 0c 0c 0e 0f 16 10 11 10 ... 84850 more bytes>
+[Object: null prototype] {
+  role: 'USER',
+  firstName: 'lokesh',
+  lastName: 'vakiti',
+  email: 'lokesh@gmail.com',
+  password: 'Lokesh123'
+}
+{
+  fieldname: 'profileImageUrl',
+  originalname: 'WhatsApp Image 2026-04-11 at 12.04.22 PM.jpeg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  buffer: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 84 00 06 06 06 06 07 06 07 08 08 07 0a 0b 0a 0b 0a 0f 0e 0c 0c 0e 0f 16 10 11 10 ... 84850 more bytes>,
+  size: 84900
+}
+Upload function called
+<Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 84 00 06 06 06 06 07 06 07 08 08 07 0a 0b 0a 0b 0a 0f 0e 0c 0c 0e 0f 16 10 11 10 ... 84850 more bytes>
+[Object: null prototype] {
+  role: 'USER',
+  firstName: 'lokesh',
+  lastName: 'vakiti',
+  email: 'lokesh@gmail.com',
+  password: 'Lokesh123'
+}
+{
+  fieldname: 'profileImageUrl',
+  originalname: 'WhatsApp Image 2026-04-11 at 12.04.22 PM.jpeg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  buffer: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 84 00 06 06 06 06 07 06 07 08 08 07 0a 0b 0a 0b 0a 0f 0e 0c 0c 0e 0f 16 10 11 10 ... 84850 more bytes>,
+  size: 84900
+}
+Upload function called
+<Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 84 00 06 06 06 06 07 06 07 08 08 07 0a 0b 0a 0b 0a 0f 0e 0c 0c 0e 0f 16 10 11 10 ... 84850 more bytes>
+[Object: null prototype] {
+  role: 'USER',
+  firstName: 'lokesh',
+  lastName: 'vakiti',
+  email: 'lokesh@gmail.com',
+  password: 'Lokesh123'
+}
+{
+  fieldname: 'profileImageUrl',
+  originalname: 'WhatsApp Image 2026-04-11 at 12.04.22 PM.jpeg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  buffer: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 84 00 06 06 06 06 07 06 07 08 08 07 0a 0b 0a 0b 0a 0f 0e 0c 0c 0e 0f 16 10 11 10 ... 84850 more bytes>,
+  size: 84900
+}
+Upload function called
+<Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 84 00 06 06 06 06 07 06 07 08 08 07 0a 0b 0a 0b 0a 0f 0e 0c 0c 0e 0f 16 10 11 10 ... 84850 more bytes>
+[Object: null prototype] {
+  role: 'USER',
+  firstName: 'lokesh',
+  lastName: 'vakiti',
+  email: 'lokesh@gmail.com',
+  password: 'Lokesh123'
+}
+{
+  fieldname: 'profileImageUrl',
+  originalname: 'WhatsApp Image 2026-04-11 at 12.04.22 PM.jpeg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  buffer: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 84 00 06 06 06 06 07 06 07 08 08 07 0a 0b 0a 0b 0a 0f 0e 0c 0c 0e 0f 16 10 11 10 ... 84850 more bytes>,
+  size: 84900
+}
+Upload function called
+<Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 84 00 06 06 06 06 07 06 07 08 08 07 0a 0b 0a 0b 0a 0f 0e 0c 0c 0e 0f 16 10 11 10 ... 84850 more bytes>
+err is  MongooseError: Email already exists
+    at Schema._transformDuplicateKeyError (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\schema.js:3067:12)
+    at model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:494:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+  [cause]: MongoServerError: E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }
+      at InsertOneOperation.handleOk (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+      at executeOperationWithRetries (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async executeOperation (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+      at async Collection.insertOne (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\collection.js:154:16)
+      at async model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:428:16)
+      at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+      at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+    errorLabelSet: Set(0) {},
+    errorResponse: {
+      index: 0,
+      code: 11000,
+      errmsg: 'E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }',
+      keyPattern: [Object],
+      keyValue: [Object]
+    },
+    index: 0,
+    code: 11000,
+    keyPattern: { email: 1 },
+    keyValue: { email: 'lokesh@gmail.com' }
+  }
+}
+err is  MongooseError: Email already exists
+    at Schema._transformDuplicateKeyError (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\schema.js:3067:12)
+    at model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:494:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+  [cause]: MongoServerError: E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }
+      at InsertOneOperation.handleOk (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+      at executeOperationWithRetries (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async executeOperation (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+      at async Collection.insertOne (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\collection.js:154:16)
+      at async model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:428:16)
+      at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+      at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+    errorLabelSet: Set(0) {},
+    errorResponse: {
+      index: 0,
+      code: 11000,
+      errmsg: 'E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }',
+      keyPattern: [Object],
+      keyValue: [Object]
+    },
+    index: 0,
+    code: 11000,
+    keyPattern: { email: 1 },
+    keyValue: { email: 'lokesh@gmail.com' }
+  }
+}
+error is  MongooseError: Email already exists
+    at Schema._transformDuplicateKeyError (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\schema.js:3067:12)
+    at model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:494:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+  [cause]: MongoServerError: E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }
+      at InsertOneOperation.handleOk (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+      at executeOperationWithRetries (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async executeOperation (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+      at async Collection.insertOne (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\collection.js:154:16)
+      at async model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:428:16)
+      at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+      at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+    errorLabelSet: Set(0) {},
+    errorResponse: {
+      index: 0,
+      code: 11000,
+      errmsg: 'E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }',
+      keyPattern: [Object],
+      keyValue: [Object]
+    },
+    index: 0,
+    code: 11000,
+    keyPattern: { email: 1 },
+    keyValue: { email: 'lokesh@gmail.com' }
+  }
+}
+Full error: {}
+err is  MongooseError: Email already exists
+    at Schema._transformDuplicateKeyError (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\schema.js:3067:12)
+    at model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:494:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+  [cause]: MongoServerError: E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }
+      at InsertOneOperation.handleOk (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+      at executeOperationWithRetries (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async executeOperation (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+      at async Collection.insertOne (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\collection.js:154:16)
+      at async model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:428:16)
+      at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+      at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+    errorLabelSet: Set(0) {},
+    errorResponse: {
+      index: 0,
+      code: 11000,
+      errmsg: 'E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }',
+      keyPattern: [Object],
+      keyValue: [Object]
+    },
+    index: 0,
+    code: 11000,
+    keyPattern: { email: 1 },
+    keyValue: { email: 'lokesh@gmail.com' }
+  }
+}
+error is  MongooseError: Email already exists
+    at Schema._transformDuplicateKeyError (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\schema.js:3067:12)
+    at model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:494:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+  [cause]: MongoServerError: E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }
+      at InsertOneOperation.handleOk (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+      at executeOperationWithRetries (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async executeOperation (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+      at async Collection.insertOne (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\collection.js:154:16)
+      at async model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:428:16)
+      at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+      at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+    errorLabelSet: Set(0) {},
+    errorResponse: {
+      index: 0,
+      code: 11000,
+      errmsg: 'E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }',
+      keyPattern: [Object],
+      keyValue: [Object]
+    },
+    index: 0,
+    code: 11000,
+    keyPattern: { email: 1 },
+    keyValue: { email: 'lokesh@gmail.com' }
+  }
+}
+Full error: {}
+error is  MongooseError: Email already exists
+    at Schema._transformDuplicateKeyError (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\schema.js:3067:12)
+    at model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:494:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+  [cause]: MongoServerError: E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }
+      at InsertOneOperation.handleOk (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+      at executeOperationWithRetries (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async executeOperation (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+      at async Collection.insertOne (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\collection.js:154:16)
+      at async model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:428:16)
+      at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+      at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+    errorLabelSet: Set(0) {},
+    errorResponse: {
+      index: 0,
+      code: 11000,
+      errmsg: 'E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }',
+      keyPattern: [Object],
+      keyValue: [Object]
+    },
+    index: 0,
+    code: 11000,
+    keyPattern: { email: 1 },
+    keyValue: { email: 'lokesh@gmail.com' }
+  }
+}
+Full error: {}
+err is  MongooseError: Email already exists
+    at Schema._transformDuplicateKeyError (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\schema.js:3067:12)
+    at model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:494:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+  [cause]: MongoServerError: E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }
+      at InsertOneOperation.handleOk (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+      at executeOperationWithRetries (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async executeOperation (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+      at async Collection.insertOne (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\collection.js:154:16)
+      at async model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:428:16)
+      at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+      at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+    errorLabelSet: Set(0) {},
+    errorResponse: {
+      index: 0,
+      code: 11000,
+      errmsg: 'E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }',
+      keyPattern: [Object],
+      keyValue: [Object]
+    },
+    index: 0,
+    code: 11000,
+    keyPattern: { email: 1 },
+    keyValue: { email: 'lokesh@gmail.com' }
+  }
+}
+err is  MongooseError: Email already exists
+    at Schema._transformDuplicateKeyError (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\schema.js:3067:12)
+    at model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:494:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+  [cause]: MongoServerError: E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }
+      at InsertOneOperation.handleOk (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+      at executeOperationWithRetries (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async executeOperation (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+      at async Collection.insertOne (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\collection.js:154:16)
+      at async model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:428:16)
+      at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+      at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+    errorLabelSet: Set(0) {},
+    errorResponse: {
+      index: 0,
+      code: 11000,
+      errmsg: 'E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }',
+      keyPattern: [Object],
+      keyValue: [Object]
+    },
+    index: 0,
+    code: 11000,
+    keyPattern: { email: 1 },
+    keyValue: { email: 'lokesh@gmail.com' }
+  }
+}
+err is  MongooseError: Email already exists
+    at Schema._transformDuplicateKeyError (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\schema.js:3067:12)
+    at model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:494:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+  [cause]: MongoServerError: E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }
+      at InsertOneOperation.handleOk (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+      at executeOperationWithRetries (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async executeOperation (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+      at async Collection.insertOne (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\collection.js:154:16)
+      at async model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:428:16)
+      at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+      at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+    errorLabelSet: Set(0) {},
+    errorResponse: {
+      index: 0,
+      code: 11000,
+      errmsg: 'E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }',
+      keyPattern: [Object],
+      keyValue: [Object]
+    },
+    index: 0,
+    code: 11000,
+    keyPattern: { email: 1 },
+    keyValue: { email: 'lokesh@gmail.com' }
+  }
+}
+error is  MongooseError: Email already exists
+    at Schema._transformDuplicateKeyError (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\schema.js:3067:12)
+    at model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:494:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+  [cause]: MongoServerError: E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }
+      at InsertOneOperation.handleOk (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+      at executeOperationWithRetries (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async executeOperation (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+      at async Collection.insertOne (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\collection.js:154:16)
+      at async model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:428:16)
+      at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+      at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+    errorLabelSet: Set(0) {},
+    errorResponse: {
+      index: 0,
+      code: 11000,
+      errmsg: 'E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }',
+      keyPattern: [Object],
+      keyValue: [Object]
+    },
+    index: 0,
+    code: 11000,
+    keyPattern: { email: 1 },
+    keyValue: { email: 'lokesh@gmail.com' }
+  }
+}
+Full error: {}
+error is  MongooseError: Email already exists
+    at Schema._transformDuplicateKeyError (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\schema.js:3067:12)
+    at model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:494:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+  [cause]: MongoServerError: E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }
+      at InsertOneOperation.handleOk (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+      at executeOperationWithRetries (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async executeOperation (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+      at async Collection.insertOne (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\collection.js:154:16)
+      at async model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:428:16)
+      at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+      at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+    errorLabelSet: Set(0) {},
+    errorResponse: {
+      index: 0,
+      code: 11000,
+      errmsg: 'E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }',
+      keyPattern: [Object],
+      keyValue: [Object]
+    },
+    index: 0,
+    code: 11000,
+    keyPattern: { email: 1 },
+    keyValue: { email: 'lokesh@gmail.com' }
+  }
+}
+Full error: {}
+error is  MongooseError: Email already exists
+    at Schema._transformDuplicateKeyError (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\schema.js:3067:12)
+    at model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:494:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+  [cause]: MongoServerError: E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }
+      at InsertOneOperation.handleOk (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+      at executeOperationWithRetries (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async executeOperation (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+      at async Collection.insertOne (D:\mernstack\capstone\Backend\node_modules\mongodb\lib\collection.js:154:16)
+      at async model.$__save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:428:16)
+      at async model.save (D:\mernstack\capstone\Backend\node_modules\mongoose\lib\model.js:667:5)
+      at async file:///D:/mernstack/capstone/Backend/APIs/commonAPI.js:57:5 {
+    errorLabelSet: Set(0) {},
+    errorResponse: {
+      index: 0,
+      code: 11000,
+      errmsg: 'E11000 duplicate key error collection: blogapp.users index: email_1 dup key: { email: "lokesh@gmail.com" }',
+      keyPattern: [Object],
+      keyValue: [Object]
+    },
+    index: 0,
+    code: 11000,
+    keyPattern: { email: 1 },
+    keyValue: { email: 'lokesh@gmail.com' }
+  }
+}
+Full error: {}

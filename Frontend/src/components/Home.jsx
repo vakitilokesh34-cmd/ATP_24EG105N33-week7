@@ -27,7 +27,7 @@ function Home() {
 
   const categories = ["all", ...new Set((articles || []).map((a) => a.category))];
 
-  const filtered = articles.filter((a) => {
+  const filtered = (articles || []).filter((a) => {
     const matchCat = selectedCategory === "all" || a.category === selectedCategory;
     const matchSearch =
       a.title.toLowerCase().includes(search.toLowerCase()) ||
