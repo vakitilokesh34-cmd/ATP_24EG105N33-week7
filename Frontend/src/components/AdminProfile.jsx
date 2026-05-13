@@ -24,8 +24,8 @@ function AdminProfile() {
         axios.get(import.meta.env.VITE_API_URL + "/admin-api/stats", { withCredentials: true }),
         axios.get(import.meta.env.VITE_API_URL + "/admin-api/authors", { withCredentials: true }),
       ]);
-      setStats(statsRes.data.payload);
-      setAuthors(authorsRes.data.payload);
+      setStats(statsRes.data?.payload ?? null);
+      setAuthors(authorsRes.data?.payload || []);
     } catch (err) {
       toast.error("Failed to load admin data");
     } finally {

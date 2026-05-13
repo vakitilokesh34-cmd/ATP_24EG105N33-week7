@@ -53,7 +53,7 @@ function ArticleByID() {
         const res = await axios.get(`${import.meta.env.VITE_API_URL}/user-api/article/${id}`, {
           withCredentials: true,
         });
-        setArticle(res.data.payload);
+        setArticle(res.data?.payload ?? null);
       } catch (err) {
         setError(err.response?.data?.message || "Failed to load article");
       } finally {
@@ -89,7 +89,7 @@ function ArticleByID() {
         { articleId: article._id, isArticleActive: newStatus },
         { withCredentials: true }
       );
-      setArticle(res.data.payload);
+      setArticle(res.data?.payload ?? null);
       toast.success(res.data.message);
     } catch (err) {
       toast.error(err.response?.data?.message || "Operation failed");
@@ -107,7 +107,7 @@ function ArticleByID() {
       const res = await axios.put(import.meta.env.VITE_API_URL + "/user-api/articles", commentObj, {
         withCredentials: true,
       });
-      if (res.status === 200) { setArticle(res.data.payload); reset(); toast.success("Comment added!"); }
+      if (res.status === 200) { setArticle(res.data?.payload ?? null); reset(); toast.success("Comment added!"); }
     } catch (err) {
       toast.error(err.response?.data?.message || "Failed to add comment");
     }
@@ -122,7 +122,7 @@ function ArticleByID() {
         { articleId: article._id, commentId, comment: editingText },
         { withCredentials: true }
       );
-      setArticle(res.data.payload);
+      setArticle(res.data?.payload ?? null);
       setEditingCommentId(null);
       toast.success("Comment updated!");
     } catch (err) {
@@ -138,7 +138,7 @@ function ArticleByID() {
         import.meta.env.VITE_API_URL + "/user-api/articles/comment/delete",
         { data: { articleId: article._id, commentId }, withCredentials: true }
       );
-      setArticle(res.data.payload);
+      setArticle(res.data?.payload ?? null);
       toast.success("Comment deleted!");
     } catch (err) {
       toast.error(err.response?.data?.message || "Failed to delete comment");

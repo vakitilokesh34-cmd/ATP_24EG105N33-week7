@@ -64,7 +64,7 @@ export const useAuth = create((set) => ({
       const res = await axios.get(import.meta.env.VITE_API_URL + "/auth/check-auth", { withCredentials: true });
 
       set({
-        currentUser: res.data.payload,
+        currentUser: res.data?.payload,
         isAuthenticated: true,
         loading: false,
       });

@@ -31,7 +31,7 @@ function UserProfile() {
         let res=await axios.get(import.meta.env.VITE_API_URL + "/user-api/articles",{withCredentials:true})
         //update articles state
         if(res.status===200){
-          setArticles((await res).data.payload)
+          setArticles(res.data?.payload || [])
         }
       } catch (err) {
         setError(err.response?.data?.error || "Something went wrong");
