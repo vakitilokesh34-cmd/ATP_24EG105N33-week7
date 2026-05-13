@@ -1,0 +1,72 @@
+
+### create user
+POST http://localhost:4000/auth/users
+Content-Type: application/json
+
+{
+"firstName":"jay",
+"lastName":"",
+"email":"jay@gmail.com",
+"password":"password",
+"role":"AUTHOR",
+"profileImageurl":""
+}
+
+###login
+POST http://localhost:4000/auth/login
+Content-Type: application/json
+
+{
+"email":"jayaram@gmail.com",
+"password":"password"
+}
+
+###logout
+GET http://localhost:4000/auth/logout
+
+
+### Request to create article
+POST http://localhost:4000/author-api/article
+Content-Type: application/json
+
+{
+ "author":"69b3963abcb19a440086eb3b",
+ "title":"Article-3 by Author 1",
+ "category":"Programming",
+ "content":"Test article on programming"
+}
+
+### Read own articles 
+GET http://localhost:4000/author-api/articles
+
+### update article by author
+PUT http://localhost:4000/author-api/articles
+Content-Type: application/json
+
+{
+  "articleId":"69b3d9f83f76fc7d93d0e6ac",
+   "title":"updated article ",
+   "category":"AI",
+   "content":"testarticle on AI"
+}
+
+#### Delete article by article ID (soft delete)
+PATCH http://localhost:4000/author-api/article
+Content-Type: application/json
+
+{
+ "articleId":"69b3cd241011bfa8f8b39886",
+ "isArticleActive":true
+}
+
+### read articles of all  authors
+GET http://localhost:4000/user-api/articles
+
+### Add comment by user to an article
+PUT http://localhost:4000/user-api/comment
+Content-Type: application/json
+
+{
+"articleId":"69b4e8015e5681eadbe96d40",
+"comment":"Good Article"
+}
