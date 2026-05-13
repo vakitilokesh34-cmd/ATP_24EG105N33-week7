@@ -15,7 +15,7 @@ function Home() {
     const fetchArticles = async () => {
       try {
         const res = await axios.get(import.meta.env.VITE_API_URL + "/auth/articles");
-        if (res.status === 200) setArticles(res.data.payload);
+        if (res.status === 200) setArticles(res.data?.payload || []);
       } catch (err) {
         console.error("Failed to fetch articles", err);
       } finally {
@@ -25,13 +25,14 @@ function Home() {
     fetchArticles();
   }, []);
 
-  const categories = ["all", ...new Set((articles || []).map((a) => a.category))];
+  const safeArticles = Array.isArray(articles) ? articles : [];
+  const categories = ["all", ...new Set(safeArticles.map((a) => a?.category).filter(Boolean))];
 
-  const filtered = (articles || []).filter((a) => {
-    const matchCat = selectedCategory === "all" || a.category === selectedCategory;
-    const matchSearch =
-      a.title.toLowerCase().includes(search.toLowerCase()) ||
-      a.content.toLowerCase().includes(search.toLowerCase());
+  const filtered = safeArticles.filter((a) => {
+    const matchCat = selectedCategory === "all" || a?.category === selectedCategory;
+    const title = (a?.title || "").toLowerCase();
+    const content = (a?.content || "").toLowerCase();
+    const matchSearch = title.includes(search.toLowerCase()) || content.includes(search.toLowerCase());
     return matchCat && matchSearch;
   });
 
