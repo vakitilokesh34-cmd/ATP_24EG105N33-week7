@@ -1,114 +1,60 @@
-# Blog App - MERN Stack
+# Capstone Blog Application
 
-A full-stack blog application built with the **MERN stack** (MongoDB, Express.js, React, Node.js).
-
-## Features
-
-- **Authentication** — Register, login, logout with JWT & bcryptjs
-- **Role-based access** — User, Author, Admin roles with separate API layers
-- **Article management** — Create, read, update, delete articles with categories
-- **Comments** — Comment on articles
-- **Image uploads** — Cloudinary integration for profile & article images
-- **Responsive UI** — React frontend styled with TailwindCSS
-- **State management** — Zustand for frontend state
-
-## Tech Stack
-
-| Layer | Tech |
-|-------|------|
-| Frontend | React 19, Vite, TailwindCSS, Zustand, React Router |
-| Backend | Express.js 5, Mongoose 9 |
-| Database | MongoDB |
-| Auth | JSON Web Tokens, bcryptjs |
-| Media | Cloudinary, Multer |
-| Dev Tools | ESLint, Nodemon |
+This repository contains a full-stack MERN (MongoDB, Express, React, Node.js) application for a blogging platform. It supports multiple user roles (Admin, Author, User), article creation and management, image uploads via Cloudinary, and secure authentication.
 
 ## Project Structure
 
-```
-capstone/
-├── Backend/
-│   ├── APIs/              # Route handlers (user, author, admin, common)
-│   ├── config/            # Cloudinary, Multer setup
-│   ├── middlewares/        # JWT verification middleware
-│   ├── models/            # Mongoose schemas (User, Article)
-│   ├── server.js          # Express app entry point
-│   └── .env               # Environment variables
-├── Frontend/
-│   ├── src/
-│   │   ├── components/    # React components
-│   │   ├── store/         # Zustand stores
-│   │   └── styles/        # CSS files
-│   ├── public/
-│   └── .env               # Vite env vars
-└── README.md
-```
+The project is divided into two main directories:
+- `Backend/`: The Express.js server, REST APIs, and MongoDB models.
+- `Frontend/`: The React.js application using Vite, with state management and routing.
+
+## File Descriptions
+
+### Backend
+
+**APIs (Controllers/Routes)**
+- `Backend/APIs/articleApi.js`: Manages article-related routes, including fetching, creating, editing, and deleting articles.
+- `Backend/APIs/authorApi.js`: Handles author-specific endpoints, such as retrieving an author's articles.
+- `Backend/APIs/userApi.js`: Manages user authentication (login, register) and user profile data.
+
+**Configuration & Middlewares**
+- `Backend/config/cloudinary.js`: Sets up the Cloudinary connection using environment variables for media storage.
+- `Backend/config/cloudinaryUpload.js`: Integrates Cloudinary with Multer for direct cloud uploads.
+- `Backend/config/multer.js`: General setup for Multer to handle multipart/form-data (file uploads).
+- `Backend/middlewares/verifyToken.js`: Express middleware to validate JWTs and secure protected routes.
+
+**Models (Mongoose Schemas)**
+- `Backend/models/articleModel.js`: Defines the data structure for Articles in MongoDB.
+- `Backend/models/userModel.js`: Defines the data structure for Users, distinguishing between roles like Author, Admin, and User.
+
+**Core Files**
+- `Backend/server.js`: The entry point of the backend application. Connects to the database and initializes Express routes.
+- `Backend/seed.js`: A utility script to populate the database with initial dummy data.
+
+### Frontend
+
+**Components**
+- `AdminProfile.jsx`: Dashboard tailored for administrative users to manage platform content.
+- `ArticleByID.jsx`: Fetches and displays the full content of a specific article.
+- `Articles.jsx`: Renders a list or grid of articles available on the platform.
+- `AuthorArticles.jsx`: Shows a filtered list of articles written by a specific author.
+- `AuthorProfile.jsx`: The dashboard for authors to manage their own articles.
+- `EditArticle.jsx`: A form allowing authors or admins to modify existing articles.
+- `Footer.jsx` & `Header.jsx`: Common layout components for site navigation and footer details.
+- `Home.jsx`: The main landing page of the application.
+- `Login.jsx` & `Register.jsx`: Forms for user authentication and onboarding.
+- `ProtectedRoute.jsx`: A wrapper component that redirects unauthenticated users away from private routes.
+- `RootLayout.jsx`: Defines the shared layout structure (Header, Content, Footer) across different routes.
+- `Unauthorized.jsx`: The page shown when a user attempts to access a restricted route without proper permissions.
+- `UserProfile.jsx`: Standard dashboard for regular users to view their interactions or saved content.
+- `WriteArticles.jsx`: A rich text editor or form for authors to draft and publish new articles.
+
+**State & Config**
+- `src/store/authStore.js`: Global state management for user authentication sessions.
+- `src/styles/common.js`: Reusable styling utilities and theme variables.
+- `src/App.jsx`: The root React component that sets up React Router for navigation.
+- `src/main.jsx`: The application entry point that mounts the React app to the HTML DOM.
 
 ## Getting Started
-
-### Prerequisites
-
-- Node.js >= 18
-- MongoDB running locally (or a cloud URI)
-- Cloudinary account (optional, for image uploads)
-
-### 1. Backend Setup
-
-```bash
-cd Backend
-npm install
-```
-
-Create `Backend/.env`:
-
-```
-PORT=5050
-DB_URL=mongodb://127.0.0.1:27017/blogapp
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
-SECRET_KEY=your_jwt_secret
-```
-
-Start the backend:
-
-```bash
-npm start
-```
-
-### 2. Frontend Setup
-
-```bash
-cd Frontend
-npm install
-```
-
-Create `Frontend/.env`:
-
-```
-VITE_API_URL=http://localhost:5050
-```
-
-Start the frontend:
-
-```bash
-npm run dev
-```
-
-### 3. Seed Data (optional)
-
-```bash
-cd Backend
-node seed.js
-```
-
-The backend runs on **http://localhost:5050** and the frontend on **http://localhost:5173**.
-
-## API Endpoints
-
-| Prefix | Description |
-|--------|-------------|
-| `/auth` | Register, login, logout |
-| `/user-api` | User operations |
-| `/author-api` | Author operations |
-| `/admin-api` | Admin operations |
+1. Navigate to `Backend/` and run `npm install`, then `node server.js` (or `npm run dev`).
+2. Navigate to `Frontend/` and run `npm install`, then `npm run dev` to start the Vite server.
